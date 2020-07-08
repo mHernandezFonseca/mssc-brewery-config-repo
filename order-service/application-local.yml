@@ -2,7 +2,7 @@ spring:
   datasource:
     username: beer_order_service
     password: password
-    url: jdbc:mysql://127.0.0.1:3306/beerorderservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://172.18.0.5:3306/beerorderservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
 
 # Enable logging for config troubleshooting
 logging:
